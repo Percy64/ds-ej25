@@ -6,7 +6,7 @@ class prestamo{
     public $fechaalta;
     public $cantidadcuotas;
     public $montocapital;
-    public $;
+    
 
     public function mostrardatos()
     {
