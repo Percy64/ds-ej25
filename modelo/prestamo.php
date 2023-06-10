@@ -10,6 +10,8 @@ class prestamo{
 
     public function mostrardatos()
     {
+        
+
         echo 'id:'. $this->id . '<br>';
         echo 'fecha de alta :'. $this->fechaalta . '<br>';
         echo 'cantidadcuotas'. $this->cantidadcuotas . '<br>';
@@ -29,6 +31,6 @@ class prestamo{
 
         echo 'id:'. $this->lineaprestamo->id . '<br>';
         echo 'descripcion'. $this->lineaprestamo->descripcion . '<br>';
-        echo 'taza efectiva mensual'. $this->tazaefectivamensual . '<br>';
+        echo 'taza efectiva mensual'. $this->lineaprestamo->tazaefectivamensual . '<br>';
     }
 }
